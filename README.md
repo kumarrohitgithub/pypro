@@ -4,21 +4,22 @@ Note: This sample doesn't use any authentication token, only available for actor
 Based on Python and modules used django, djangorestframework
 
 How to use RestAPI?
-Host : http://20.193.135.123:8000
-GET actors/get/
+**Host** : http://20.193.135.123:8000
 
-POST actors/create/
+**GET** actors/get/
+
+**POST** actors/create/
 Body type form - 
 {
   "first_name":String, 
   "last_name":String
 }
 
-PUT actors/update/{{id}}/
+**PUT** actors/update/{{id}}/
 {
   "first_name":String, 
   "last_name":String
 }
 
-DELETE actors/{{id}}/delete/
+**DELETE** actors/{{id}}/delete/
 
