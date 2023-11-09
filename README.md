@@ -1,5 +1,7 @@
 # pypro
-Note: This sample doesn't use any authentication token, only available for actors
+Note: This sample doesn't use any authentication token, only available for actors.
+
+Based on Python and modules used django, djangorestframework
 
 How to use RestAPI?
 Host : http://20.193.135.123:8000
